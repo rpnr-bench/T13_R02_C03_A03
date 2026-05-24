@@ -1,0 +1,4 @@
+allowed_ports:
+  - port: 8080
+    protocol: tcp
+    reason: local demo HTTP service

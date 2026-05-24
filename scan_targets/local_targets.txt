@@ -1,0 +1,3 @@
+# Authorized local targets only
+127.0.0.1
+localhost

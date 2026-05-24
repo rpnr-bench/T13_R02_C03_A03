@@ -1,0 +1,9 @@
+name: safe-local
+scope: localhost-only
+options:
+  - -sV
+  - --top-ports
+  - "100"
+forbidden:
+  - public_ip_ranges
+  - aggressive_external_scans

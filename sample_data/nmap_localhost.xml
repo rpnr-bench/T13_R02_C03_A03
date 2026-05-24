@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<nmaprun scanner="nmap">
+  <host>
+    <status state="up"/>
+    <address addr="127.0.0.1" addrtype="ipv4"/>
+    <ports>
+      <port protocol="tcp" portid="8080">
+        <state state="open"/>
+        <service name="http" product="Demo service"/>
+      </port>
+    </ports>
+  </host>
+</nmaprun>
